@@ -1,4 +1,4 @@
-<?php
+<!--<?php
 
 use yii\helpers\Html;
 use kartik\daterange\DateRangePicker;
@@ -13,9 +13,9 @@ use yii\helpers\Url;
 ?>
 
 
-<div class="panel panel-default">
+<div class="panel panel-default"> -->
     <!-- /.panel-heading -->
-    <div class="panel-body">
+   <!-- <div class="panel-body">
         <?php $form = ActiveForm::begin(['action' => ['index'], 'method' => 'get']); ?>
         <div class="row">
             <div class="col-sm-12 col-md-6">
@@ -39,8 +39,8 @@ use yii\helpers\Url;
 
                         ],
                     ]
-                ])->label(false); ?>
-            </div>
+                ])->label(false); ?> 
+            </div> -->
             <!--<div class="col-sm-12 col-md-6">
                         <?php /*echo $form->field($model, 'time_')->widget(DatePicker::classname(), [
                             'attribute' => 'datetime_start',
@@ -54,7 +54,7 @@ use yii\helpers\Url;
                             ]
                         ])->label(false); */ ?>
                     </div>-->
-        </div>
+       <!-- </div>
 
         <hr>
 
@@ -72,4 +72,4 @@ use yii\helpers\Url;
         </div>
     </div>
     <?php ActiveForm::end(); ?>
-</div>
+</div>-->

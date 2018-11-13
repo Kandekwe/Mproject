@@ -22,9 +22,9 @@ $this->title = Yii::$app->name;
 <!-- /.row -->
 <div class="row">
     <div class="col-lg-12">
-        <?php echo $this->render('_filter', [
+       <?php echo $this->render('_filter', [
             'services' => $services,
-            'model' => $model,
+           'model' => $model,
         ]) ?>
     </div>
 </div>
@@ -67,10 +67,10 @@ $this->title = Yii::$app->name;
     </div>
 
 </div>
-<div class="row">
-    <div class="col-lg-12">
+<!--<div class="row">
+    <div class="col-lg-4">
         <div class="panel panel-default">
-            <!-- /.panel-heading -->
+            <!-- /.panel-heading 
             <div class="panel-body">
                 <?php echo $this->render('_report_by_service', []); ?>
             </div>
